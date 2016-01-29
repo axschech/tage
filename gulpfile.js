@@ -17,10 +17,11 @@ gulp.task('default', () => {
         .pipe(gulp.dest('dist'));
 });
 
+gulp.task('server:restart', () => {
+    server.restart();
+})
+
 gulp.task('watch', () => {
     server.listen({path: './server.js'});
-    gulp.watch('src/**', () => {
-        gulp.start('default');
-        server.restart();
-    });
+    gulp.watch('src/**', ['default', 'server:restart']);
 });
