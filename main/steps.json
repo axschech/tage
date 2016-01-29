@@ -1,0 +1,36 @@
+[
+    {
+        "text": "This is the beginning",
+        "choices": [
+            {
+                "text": "First Choice",
+                "goes": 1
+            }, {
+                "text": "Second Choice",
+                "goes": 2
+            }
+        ]
+    }, {
+        "text": "This is second step",
+        "choices": [
+            {
+                "text": "First Choice",
+                "goes": 0
+            }, {
+                "text": "Second Choice",
+                "goes": 2
+            }
+        ]
+    }, {
+        "text": "This is third step",
+        "choices": [
+            {
+                "text": "First Choice",
+                "goes": 0
+            }, {
+                "text": "Second Choice",
+                "goes": 1
+            }
+        ]
+    }
+]
