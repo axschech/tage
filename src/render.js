@@ -1,6 +1,8 @@
 class Render {
-    constructor(type, steps) {
+    constructor(type, choose) {
         this.type = type;
-        this.steps = steps;
+        this.choose = choose;
+        this.choose(2);
     }
+
 }

@@ -8,7 +8,9 @@ const server = require('gulp-develop-server');
 gulp.task('default', () => {
     console.log('running');
     return gulp.src([
+            'src/step.js',
             'src/steps.js',
+            'src/render.js',
             'src/engine.js',
             'src/app.js'
         ])
@@ -23,5 +25,5 @@ gulp.task('server:restart', () => {
 
 gulp.task('watch', () => {
     server.listen({path: './server.js'});
-    gulp.watch('src/**', ['default', 'server:restart']);
+    gulp.watch('src/**/*.js', ['default', 'server:restart']);
 });
