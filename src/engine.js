@@ -1,8 +1,8 @@
 'use strict';
 
 class Engine {
-    constructor(steps) {
-        this.steps = steps;
+    constructor(obj) {
+        this.steps = obj.steps;
         this.step = new Step();
         this.render = new Render(
             'main',

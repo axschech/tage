@@ -3,11 +3,11 @@
 class Steps {
     constructor(type) {
         this.type = type;
-        this.steps = [];
+        this.response = {};
 
         this.promise = this.getFile();
         this.promise.then((response) => {
-            this.steps = response.steps;
+            this.response = response;
         })
     }
 

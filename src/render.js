@@ -12,6 +12,7 @@ class Render {
     html = () => {
         let htmlStr = this.step.obj.header,
             type = this.type;
+        htmlStr += `<img class="step-img" src='${type}/images/${this.step.obj.image}' class="img-rounded" />`;
         htmlStr += this.step.obj.text;
         this.step.obj.choices.forEach((choice) => {
             htmlStr += `<p><a href="#" class='${type}' id='${type}_${choice.goes}'>${choice.text}</a></p>`;
@@ -21,6 +22,10 @@ class Render {
 
     render = () => {
         document.getElementById('text').innerHTML = this.html();
+    };
+
+    pre_image = () => {
+
     };
 
     listener = () => {

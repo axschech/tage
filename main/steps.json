@@ -1,40 +1,48 @@
 {
-   "title":"This is a test",
-   "bootstrap": true,
+   "info": {
+        "title":"This is a test",
+        "images": {
+            "hosted": false
+        },
+        "bootstrap": true
+    },
    "steps": [
         {
             "header": "<h1>Chapter 1</h1>",
             "text": "<h2>This is the beginning</h2>",
+            "image": "spongebob.jpg",
             "choices": [
                 {
-                    "text": "<p>First Choice</p>",
+                    "text": "<p>Woo I'm excited!</p>",
                     "goes": 1
                 }, {
-                    "text": "<p>Second Choice</p>",
+                    "text": "<p>I don't care</p>",
                     "goes": 2
                 }
             ]
         }, {
             "header": "<h1>Chapter 1</h1>",
-            "text": "<h2>This is the second step</h2>",
+            "text": "<h2>Are you having fun?</h2>",
+            "image": "spongebob2.jpg",
             "choices": [
                 {
-                    "text": "<p>First Choice</p>",
+                    "text": "<p>Yes</p>",
                     "goes": 0
                 }, {
-                    "text": "<p>Second Choice</p>",
+                    "text": "<p>No</p>",
                     "goes": 2
                 }
             ]
         }, {
             "header": "<h1>Chapter 1</h1>",
-            "text": "<h2>This is the third step</h2>",
+            "text": "<h2>It's over!</h2>",
+            "image": "spongebob3.png",
             "choices": [
                 {
-                    "text": "<p>First Choice</p>",
+                    "text": "<p>Again!</p>",
                     "goes": 0
                 }, {
-                    "text": "<p>Second Choice</p>",
+                    "text": "<p>Wait, go back.</p>",
                     "goes": 1
                 }
             ]

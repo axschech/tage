@@ -12,7 +12,7 @@ class App {
         ]);
 
         this.promisePrime.then(() => {
-            this.engine = new Engine(this.mainSteps.steps);
+            this.engine = new Engine(this.mainSteps.response);
         });
 
     }
