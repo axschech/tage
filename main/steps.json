@@ -1,36 +1,44 @@
-[
-    {
-        "text": "This is the beginning",
-        "choices": [
-            {
-                "text": "First Choice",
-                "goes": 1
-            }, {
-                "text": "Second Choice",
-                "goes": 2
-            }
-        ]
-    }, {
-        "text": "This is second step",
-        "choices": [
-            {
-                "text": "First Choice",
-                "goes": 0
-            }, {
-                "text": "Second Choice",
-                "goes": 2
-            }
-        ]
-    }, {
-        "text": "This is third step",
-        "choices": [
-            {
-                "text": "First Choice",
-                "goes": 0
-            }, {
-                "text": "Second Choice",
-                "goes": 1
-            }
-        ]
-    }
-]
+{
+   "title":"This is a test",
+   "bootstrap": true,
+   "steps": [
+        {
+            "header": "<h1>Chapter 1</h1>",
+            "text": "<h2>This is the beginning</h2>",
+            "choices": [
+                {
+                    "text": "<p>First Choice</p>",
+                    "goes": 1
+                }, {
+                    "text": "<p>Second Choice</p>",
+                    "goes": 2
+                }
+            ]
+        }, {
+            "header": "<h1>Chapter 1</h1>",
+            "text": "<h2>This is the second step</h2>",
+            "choices": [
+                {
+                    "text": "<p>First Choice</p>",
+                    "goes": 0
+                }, {
+                    "text": "<p>Second Choice</p>",
+                    "goes": 2
+                }
+            ]
+        }, {
+            "header": "<h1>Chapter 1</h1>",
+            "text": "<h2>This is the third step</h2>",
+            "choices": [
+                {
+                    "text": "<p>First Choice</p>",
+                    "goes": 0
+                }, {
+                    "text": "<p>Second Choice</p>",
+                    "goes": 1
+                }
+            ]
+        }
+    ]
+}
+

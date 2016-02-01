@@ -7,7 +7,7 @@ class Steps {
 
         this.promise = this.getFile();
         this.promise.then((response) => {
-            this.steps = response;
+            this.steps = response.steps;
         })
     }
 
