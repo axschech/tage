@@ -3,11 +3,13 @@
 class Engine {
     constructor(obj) {
         this.steps = obj.steps;
+        this.info = obj.info;
         this.step = new Step();
         this.render = new Render(
             'main',
             this.choose,
-            this.step
+            this.step,
+            this.info
         );
     }
 
