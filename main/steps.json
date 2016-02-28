@@ -9,8 +9,8 @@
     },
    "steps": [
         {
-            "header": "<h1>Chapter 1</h1>",
-            "text": "<h2>This is the beginning</h2>",
+            "header": "<h2>Chapter 1</h2>",
+            "text": "<h3>This is the beginning</h3>",
             "image": "spongebob.jpg",
             "choices": [
                 {
@@ -29,8 +29,8 @@
                 }
             ]
         }, {
-            "header": "<h1>Chapter 1</h1>",
-            "text": "<h2>Are you having fun?</h2>",
+            "header": "<h2>Chapter 1</h2>",
+            "text": "<h3>Are you having fun?</h3>",
             "image": "spongebob2.jpg",
             "choices": [
                 {
@@ -43,8 +43,8 @@
                 }
             ]
         }, {
-            "header": "<h1>Chapter 1</h1>",
-            "text": "<h2>It's over!</h2>",
+            "header": "<h2>Chapter 1</h2>",
+            "text": "<h3>It's over!</h3>",
             "image": "spongebob3.png",
             "choices": [
                 {
