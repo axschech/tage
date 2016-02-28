@@ -1,7 +1,7 @@
 {
   "name": "tage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Text Adventure Game Engine",
   "main": "gulpfile.babel.js",
   "dependencies": {
     "babel-core": "^6.4.5",
@@ -15,8 +15,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axschech/tage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axschech/tage/issues"
+  },
+  "homepage": "https://github.com/axschech/tage#readme"
 }
