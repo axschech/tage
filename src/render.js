@@ -1,21 +1,23 @@
 class Render {
-    constructor(type, choose, step) {
+    //gotta clean this up
+    constructor(type, choose, step, score) {
         this.type = type;
         this.step = step;
         this.choose = choose;
-
-        this.choose(0);
+        this.score = score;
         this.render();
         this.listener();
     }
 
     html = () => {
-        let htmlStr = this.step.obj.header,
-            type = this.type;
+        let htmlStr = `<h1>Score: ${this.score.current}</h1>`,
+            type = this.type, i = 0;
+        htmlStr += this.step.obj.header;
         htmlStr += `<img class="step-img" src='${type}/images/${this.step.obj.image}' class="img-rounded" />`;
         htmlStr += this.step.obj.text;
         this.step.obj.choices.forEach((choice) => {
-            htmlStr += `<p><a href="#" class='${type}' id='${type}_${choice.goes}'>${choice.text}</a></p>`;
+            htmlStr += `<p><a href="#" class='${type}' id='${type}_${i}'>${choice.text}</a></p>`;
+            i++;
         })
         return htmlStr;
     };

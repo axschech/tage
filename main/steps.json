@@ -4,7 +4,8 @@
         "images": {
             "hosted": false
         },
-        "bootstrap": true
+        "bootstrap": true,
+        "score": true
     },
    "steps": [
         {
@@ -18,6 +19,12 @@
                 }, {
                     "text": "<p>I don't care</p>",
                     "goes": 2
+                }, {
+                    "text": "<p>Boost dat score!</p>",
+                    "score": "+5"
+                }, {
+                    "text": "<p>Lose dat score</p>",
+                    "score": "-5"
                 }
             ]
         }, {
