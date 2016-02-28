@@ -15,7 +15,8 @@
             "choices": [
                 {
                     "text": "<p>Woo I'm excited!</p>",
-                    "goes": 1
+                    "goes": 1,
+                    "score": "+5"
                 }, {
                     "text": "<p>I don't care</p>",
                     "goes": 2
@@ -37,7 +38,8 @@
                     "goes": 0
                 }, {
                     "text": "<p>No</p>",
-                    "goes": 2
+                    "goes": 2,
+                    "score": "+10"
                 }
             ]
         }, {

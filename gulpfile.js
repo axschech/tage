@@ -11,6 +11,7 @@ gulp.task('default', () => {
             'src/step.js',
             'src/steps.js',
             'src/render.js',
+            'src/score.js',
             'src/engine.js',
             'src/app.js'
         ])
