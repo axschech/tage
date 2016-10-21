@@ -5,13 +5,15 @@
             "hosted": false
         },
         "bootstrap": true,
-        "score": true
+        "score": true,
+        "soundtrack": "intro.mp3"
     },
    "steps": [
         {
             "header": "<h2>Chapter 1</h2>",
             "text": "<h3>This is the beginning</h3>",
             "image": "spongebob.jpg",
+            "music": "restart",
             "choices": [
                 {
                     "text": "<p>Woo I'm excited!</p>",
@@ -32,6 +34,7 @@
             "header": "<h2>Chapter 1</h2>",
             "text": "<h3>Are you having fun?</h3>",
             "image": "spongebob2.jpg",
+            "music": "pause",
             "choices": [
                 {
                     "text": "<p>Yes</p>",
@@ -46,6 +49,7 @@
             "header": "<h2>Chapter 1</h2>",
             "text": "<h3>It's over!</h3>",
             "image": "spongebob3.png",
+            "music": "play",
             "choices": [
                 {
                     "text": "<p>Again!</p>",

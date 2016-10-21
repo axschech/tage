@@ -10,6 +10,7 @@ gulp.task('default', () => {
     return gulp.src([
             'src/step.js',
             'src/steps.js',
+            'src/soundtrack.js',
             'src/render.js',
             'src/score.js',
             'src/engine.js',
