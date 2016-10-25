@@ -11,7 +11,7 @@
    "steps": [
         {
             "header": "<h2>Chapter 1</h2>",
-            "text": "<h3>This is the beginning</h3>",
+            "text": "<h3>This is the beginning</h3><h4>It's a crazy story where stuff is going to happen</h4>",
             "image": "spongebob.jpg",
             "music": "restart",
             "choices": [
